@@ -3,18 +3,20 @@
    <head>
      <Title>WoW Guild Heroes of Sindorei</Title>
 	 <meta charset="utf-8">
+	 <link rel="stylesheet" href="./css/shared.css"
+	 <link rel="stylesheet" href="./css/animations.css"
    </head>
    
    <body>
    <!-- NAV -->
-      <div>
-          <div>
-                <nav>
-			    <a href="#home" id="link"><li>Home</li></a>
-    			<a href="#gallery"><li>Gallery</li></a>
-			    <a href="#raids"><li>Raids</li></a>
-			 
-		        </nav>
+      <div class="wrap">
+          <div class="menu-container">
+                <ul class="menu">
+			        <a href="#home" id="link"><li>Home</li></a>
+    			    <a href="#gallery"><li>Gallery</li></a>
+			        <a href="#raids"><li>Raids</li></a>
+					<a href="#contact"><li>Registration</li></a>			 
+				</ul>
 		</div>
 	</div>
 	<br>
@@ -22,13 +24,13 @@
 	
            <!-- Home -->
 		   <div id="home">
-		       <div>
-			      <div>
-				      <span><h1>Heroes of Sindorei</h1></span>
+		       <div class="container">
+			      <div class="text-center">
+				      <span class="head-main"><h1>Heroes of Sindorei</h1></span>
 					  
 					  <!--Article -->
 					  
-					  <article>
+					  <article class="introduction">
 					     <h2>What is World of Warcraft?</h2>
 						 <p>World of Warcraft (WoW) is a massively multiplayer online role-playing game (MMORPG) developed by Blizzard Entertainment. It was first released in 2004 and quickly became one of the most popular and
 						    influential video games of all time.<br>
@@ -57,7 +59,7 @@
 		     </div>
 			<!-- Short list of raids -->
 			<div id="raids">
-			    <div>
+			    <div class="container">
 				    <div>
 					
 					<h3>List of classic raids</h3>
@@ -130,17 +132,17 @@
 			<!--End Home>
 			
 			<!-- Gallery -->
-			<section>
-			     <div id="gallery">
+			<section id="gallery">
+					<div class="container">
 				      <h1>Gallery</h1>
-					  <div>
+					  <div class="flex-container">
 					  
 					  
 					  <!--Photo-Container 1 -->
-					  <div>
-					      <div>
+					  <div class="photo-container">
+					      <div class="photo">
 						     <img src="./images/Thumb/Thumbnail_1.png" alt="oops there is a problem with the image"  width="300"  height="200">
-						      <div>
+						      <div class="photo-overlay">
 							       <h3>Click to Enlarge</h3>
 								   <p>Check out the amazing World of Warcraft</p>
 							  </div>
@@ -150,10 +152,10 @@
 					 <!-- End Photo-Container 1 -->
 					 
 					 <!--Photo-Container 2 -->
-					  <div>
-					      <div>
+					 <div class="photo-container">
+						<div class="photo">
 						    <img src="./images/Thumb/Thumbnail_2.png" alt="oops there is a problem with the image"  width="300"  height="200">
-						      <div>
+							<div class="photo-overlay">
 							       <h3>Click to Enlarge</h3>
 								   <p>Check out the amazing World of Warcraft</p>
 							  </div>
@@ -163,10 +165,10 @@
 					 <!-- End Photo-Container 2 -->
 					 
 					 <!--Photo-Container 3 -->
-					  <div>
-					      <div>
+					 <div class="photo-container">
+						<div class="photo">
 						    <img src="./images/Thumb/Thumbnail_3.png" alt="oops there is a problem with the image"  width="300"  height="200">
-						      <div>
+							<div class="photo-overlay">
 							       <h3>Click to Enlarge</h3>
 								   <p>Check out the amazing World of Warcraft</p>
 							  </div>
@@ -176,10 +178,10 @@
 					 <!-- End Photo-Container 3 -->
 					 
 					 <!--Photo-Container 4 -->
-					  <div>
-					      <div>
+					 <div class="photo-container">
+						<div class="photo">
 						     <img src="./images/Thumb/Thumbnail_4.png" alt="oops there is a problem with the image"  width="300"  height="200">
-						      <div>
+							 <div class="photo-overlay">
 							       <h3>Click to Enlarge</h3>
 								   <p>Check out the amazing World of Warcraft</p>
 							  </div>
@@ -189,10 +191,10 @@
 					 <!-- End Photo-Container 4 -->
 					 
 					 <!--Photo-Container 5 -->
-					  <div>
-					      <div>
+					 <div class="photo-container">
+						<div class="photo">
 						     <img src="./images/Thumb/Thumbnail_5.png" alt="oops there is a problem with the image"  width="300"  height="200">
-						      <div>
+							 <div class="photo-overlay">
 							       <h3>Click to Enlarge</h3>
 								   <p>Check out the amazing World of Warcraft</p>
 							  </div>
@@ -203,10 +205,10 @@
 					 
 					 
 					 <!--Photo-Container 6 -->
-					  <div>
-					      <div>
+					 <div class="photo-container">
+						<div class="photo">
 						     <img src="./images/Thumb/Thumbnail_6.png" alt="oops there is a problem with the image"  width="300"  height="200">
-						      <div>
+							 <div class="photo-overlay">
 							       <h3>Click to Enlarge</h3>
 								   <p>Check out the amazing World of Warcraft</p>
 							  </div>
@@ -217,10 +219,10 @@
 					 
 					 
 					 <!--Photo-Container 7 -->
-					  <div>
-					      <div>
+					 <div class="photo-container">
+						<div class="photo">
 						  <img src="./images/Thumb/Thumbnail_7.png" alt="oops there is a problem with the image"  width="300"  height="200">
-      						  <div>
+						  <div class="photo-overlay">
 							       <h3>Click to Enlarge</h3>
 								   <p>Check out the amazing World of Warcraft</p>
 							  </div>
@@ -231,10 +233,10 @@
 					 
 					 
 					 <!--Photo-Container 8 -->
-					  <div>
-					      <div>
+					 <div class="photo-container">
+						<div class="photo">
 						    <img src="./images/Thumb/Thumbnail_8.png" alt="oops there is a problem with the image"  width="300"  height="200">
-						      <div>
+							<div class="photo-overlay">
 							       <h3>Click to Enlarge</h3>
 								   <p>Check out the amazing World of Warcraft</p>
 							  </div>
@@ -249,26 +251,26 @@
 			
 			<!--End Gallery -->
 			
-			<!-- Resgistration -->
-			<section>
-			      <div>
-				       <div>
-					        <h1>Sign up to our guild</h1>
-							<div>
-							    <h2><span>Your advanture is about to begin.</span>
-								     <br />Sign up today!
+			<!-- Registration -->
+			<section id="contact">
+			      <div class="container">
+				       <div class="heading-padding">
+					        <h1 class="heading-padding">Sign up to our guild</h1>
+							<div class="registration">
+							    <h2>
+									<span>Your advanture is about to begin.</span>
+								     
 								</h2>
-								<p>
-								<div>
+								<div class="form">
 								    <form action="submit-form.php" method="POST">
                                      <label for="name">Name:</label>
                                      <input type="text" id="name" name="name" required><br>
 
                                      <label for="email">Email:</label>
-                                     <input type="email" id="email" name="email" required><br>
+                                     <input type="text" id="email" name="email" required><br>
 
                                      <label for="password">Password:</label>
-                                     <input type="password" id="password" name="password" required><br>
+                                     <input type="text" id="password" name="password" required><br>
 
                                      <label for="gender">Gender:</label>
                                      <select id="gender" name="gender" required>
@@ -298,7 +300,7 @@
 			<!-- End Resgistration -->
 
             <!--Footer -->
-              <div>
+              <div id="footer">
                   www.HeroesofSindorei.com	&nbsp; |&nbsp; &copy; 2023
               </div>
             <!-- End Footer -->			  
