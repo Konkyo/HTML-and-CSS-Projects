@@ -114,6 +114,7 @@ summary:before {
 }
 
 .photo-overlay {
+    display: flex;
     color: #fff;
     position: absolute;
     top: 0;

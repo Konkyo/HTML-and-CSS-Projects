@@ -202,6 +202,10 @@ section {
 #id vid {
     margin-bottom: 25px;
 }
+
+.photo-overlay p {
+    color: gold;
+}
 /* Registration Style */
 
 .flex-container {
@@ -306,6 +310,7 @@ section {
     width: 180px;
     padding: 2% 1% 2% 7%;
     font-size: 16px;
+    color:#8D8E8F;
     border-top: 1px solid #090B0D;
     border-right: #424549;
     border-bottom: 2px #424549;
@@ -321,6 +326,7 @@ section {
     width: 180px;
     padding: 2% 1% 2% 7%;
     font-size: 16px;
+    color:#8D8E8F;
     border-top: 1px solid #090B0D;
     border-right: #424549;
     border-bottom: 2px #424549;
