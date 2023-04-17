@@ -20,6 +20,8 @@ body {
 footer,
 nav {
     display: block;
+    height: 50px;
+    width: 100%;
 }
 
 h1, h2, h3, h4 h5, h6 {
@@ -61,9 +63,9 @@ p {
     padding-bottom: 15px; 
  }
 
-.text-center {
+ .text-center {
     text-align: center;
-}
+ }
 
 .heading-padding {
     padding-bottom: 40px;
@@ -72,12 +74,6 @@ p {
 section {
     padding-top: 50px;
     margin-top: 50px;
-}
-
-.navbar {
-    height: 120px;
-    max-height: 340px;
-    display: inline-block;
 }
 
 .container {
@@ -133,45 +129,33 @@ section {
 /* Home Section Style */
 
 #home {
-    background:url(../images/Lich_King.jpg) no-repeat;
+    background:url(../images/Lich_King.jpg) no-repeat 50% 50%;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     width: 100%;
+    height:auto;
     display: block;
     height: auto;
-    padding-top: 250x;  /* This is spacer before the Main title Logo */
+    padding-top: 350x;  /* This is spacer before the Main title Logo */
     padding-bottom: 500px; /* This is spacer after main title logo */
     color: aliceblue;
 }
 
 .head-main {
-    background: transparent;
     text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.9);
     font-variant: small-caps;
     color: #fff;
     word-spacing: 21pt;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     text-align: left;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: impact, sans-serif;
     line-height: 2;
     font-weight: 900;
     padding: 10px;
-    border-top: 5px solid goldenrod;
-    border-bottom: 5px solid goldenrod;
-    border-left: 5px solid goldenrod;
-    border-right: 5px solid goldenrod;
-    padding: 10px;
-    display: inline-block;
-  }
-  
-  .head-main h1 {
-    margin: 0;
-    padding: 0;
-    font-size: 28px;
-  }
+}
 
 .head-sub-main {
     font-size: 23px;
@@ -188,6 +172,36 @@ section {
     padding: 5px;
 }
 
+.article {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    color: #fff;
+}
+
+.article p {
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.container h3 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.vid {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.vid_container {
+    width: 560;
+    text-align: center;
+}
+
+#id vid {
+    margin-bottom: 25px;
+}
 /* Registration Style */
 
 .flex-container {
@@ -265,7 +279,7 @@ section {
     border-left: 1px solid #090B0D;
     margin: 10px 1em;
     border-radius: 7px;
-    background: #13161B;
+    background: #2d4a7c;
     box-shadow: inset 0px 3px 0px 0px rbga(5, 5, 5, 0.15);
     font-family: 'Raleway', sans-serif;
 }
@@ -283,7 +297,7 @@ section {
     border-left: 1px solid #090B0D;
     margin: 10px 1em;
     border-radius: 7px;
-    background: #13161B;
+    background: #2d4a7c;
     box-shadow: inset 0px 3px 0px 0px rbga(5, 5, 5, 0.15);
     font-family: 'Raleway', sans-serif;
 }
@@ -298,7 +312,7 @@ section {
     border-left: 1px solid #090B0D;
     margin: 10px 1em;
     border-radius: 7px;
-    background: #13161B;
+    background: #2d4a7c;
     box-shadow: inset 0px 3px 0px 0px rbga(5, 5, 5, 0.15);
     font-family: 'Raleway', sans-serif;
 }
@@ -313,12 +327,39 @@ section {
     border-left: 1px solid #090B0D;
     margin: 10px 1em;
     border-radius: 7px;
-    background: #13161B;
+    background: #2d4a7c;
     box-shadow: inset 0px 3px 0px 0px rbga(5, 5, 5, 0.15);
     font-family: 'Raleway', sans-serif;
 }
 
-.reservation input[type="text"] :hover {
+.input-label {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    pointer-events: none;
+    transition: 0.3s ease-in-out;
+    color: #999;
+  }
+  
+  .form input[type="text"],
+  .form input[type="email"],
+  .form input[type="password"],
+  .form select,
+  .form input[type="date"] {
+    padding: 10px;
+    margin-top: 20px;
+    position: relative;
+    width: 80%;
+  }
+  
+  .form input:focus + .input-label,
+  .form input:valid + .input-label,
+  .form select:focus + .input-label,
+  .form select:valid + .input-label,
+  .form input[type="date"]:focus + .input-label,
+  .form input[type="date"]:valid + .input-label 
+
+.registration input[type="text"] :hover {
     box-shadow: 0 0 18px rgba(100,65, 0, .8);
 }
 
