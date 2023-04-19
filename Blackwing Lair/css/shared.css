@@ -1,0 +1,105 @@
+img {
+    filter: grayscale(80%);
+    border: 10px solid rgb(12, 44, 224);
+    border-radius: 100px;
+}
+
+#footer {
+    text-align: center;
+    font-weight: bold;
+}
+/* Table Styling */
+.table tr, td {
+    color:white;
+    text-shadow: 1px 1px 2px #000;
+    border: 1px solid gold;
+    background-color: #4687cc;
+    text-align: center;
+}
+
+.table th {
+    color:white;
+    border: 1px solid gold;
+    background-color: gold;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    width: 70%;
+}
+/* End Table */
+
+html {
+    background-color: #162c44;
+}
+/* blackwing lair text */
+.blackwing {
+    position: relative;
+    text-align: center;
+    color: goldenrod;
+    font-size: 16em;
+    text-shadow: 2px 2px 3px #000;
+}
+
+.centered {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* End Blackwing Lair Text */
+
+/* Nav Bar */
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed; /*set nav to fixed position */
+    top: 0; /* sets nav at the top */
+    width: 100%; /*full width */
+    z-index: 9999; /* makes nav bar appear over any element */
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: wavy;
+    font-weight: 900;
+    opacity: 0.8;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color:rgb(12, 44, 224)
+}
+
+/* Column */
+.row {
+    display: flex;
+    background-color: #794949;
+    height: 200px;
+    width: 50%;
+    justify-content: center;
+}
+
+.column {
+    flex:1;
+    padding: 0 10px;
+}
+
+.column h2 {
+    color: goldenrod;
+}
+
+.column p {
+    color:gold
+}
